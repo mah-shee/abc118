@@ -12,5 +12,5 @@ fn main() {
     for i in a.iter() {
         ans = gcd(*i, ans);
     }
-    println!("{:?}", ans);
+    println!("{}", ans);
 }
